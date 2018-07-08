@@ -43,10 +43,10 @@
         android:layout_above="@+id/username"
         android:layout_alignParentStart="true"
         android:layout_marginBottom="-203dp"
-        android:fontFamily="sans-serif"
         android:gravity="center"
         android:text="@string/login"
-        android:textSize="30dp" />
+        android:textSize="30dp"
+        android:fontFamily="@font/bold"/>
 
     <EditText
         android:id="@+id/username"
@@ -57,7 +57,8 @@
         android:layout_marginTop="203dp"
         android:hint="@string/enter_username"
         android:inputType="text"
-        android:maxLines="1" />
+        android:maxLines="1"
+        android:fontFamily="@font/light"/>
 
     <EditText
         android:id="@+id/password"
@@ -67,7 +68,8 @@
         android:layout_centerVertical="true"
         android:hint="@string/enter_password"
         android:inputType="textPassword"
-        android:maxLines="1" />
+        android:maxLines="1"
+        android:fontFamily="@font/light" />
 
     <Button
         android:id="@+id/loginButton"
@@ -76,8 +78,9 @@
         android:layout_alignParentStart="true"
         android:layout_below="@+id/password"
         android:background="@drawable/button"
-        android:fontFamily="sans-serif"
+        android:fontFamily="@font/bold"
         android:text="@string/login"
+        android:textAllCaps="false"
         android:textColor="@android:color/background_light" />
 
     <TextView
@@ -86,9 +89,9 @@
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_below="@+id/loginButton"
-        android:fontFamily="sans-serif"
         android:gravity="center"
         android:text="@string/click_here_to_register"
-        android:textAppearance="@style/TextAppearance.AppCompat" />
+        android:textSize="20dp"
+        android:fontFamily="@font/light"/>
 
 </RelativeLayout>

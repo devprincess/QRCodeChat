@@ -43,6 +43,7 @@
         android:layout_marginBottom="-210dp"
         android:gravity="center"
         android:text="@string/register"
+        android:fontFamily="@font/bold"
         android:textSize="30dp" />
 
     <EditText
@@ -53,6 +54,7 @@
         android:layout_alignParentTop="true"
         android:layout_marginTop="210dp"
         android:hint="@string/enter_username"
+        android:fontFamily="@font/light"
         android:inputType="text"
         android:maxLines="1" />
 
@@ -64,6 +66,7 @@
         android:layout_centerVertical="true"
         android:hint="@string/enter_password"
         android:inputType="textPassword"
+        android:fontFamily="@font/light"
         android:maxLines="1" />
 
     <Button
@@ -75,7 +78,8 @@
         android:layout_marginBottom="200dp"
         android:background="@drawable/button"
         android:text="@string/register"
-        android:textColor="@color/background_color" />
+        android:textColor="@color/background_color"
+        android:fontFamily="@font/bold"/>
 
     <TextView
         android:id="@+id/login"
@@ -86,6 +90,7 @@
         android:layout_marginTop="-200dp"
         android:gravity="center"
         android:text="@string/click_here_to_login"
-        android:textSize="20dp" />
+        android:textSize="20dp"
+        android:fontFamily="@font/light"/>
 
 </RelativeLayout>

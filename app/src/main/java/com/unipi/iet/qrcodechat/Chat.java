@@ -1,5 +1,6 @@
 package com.unipi.iet.qrcodechat;
 
+import android.graphics.Typeface;
 import android.os.Environment;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -323,6 +324,9 @@ public class Chat extends AppCompatActivity {
             textView.setBackground(getResources().getDrawable(R.drawable.layout_bg));
             textView.setTextColor(getResources().getColor(R.color.background_color));
             textView.setPadding(30,2,30,2);
+
+            Typeface typeface = Typeface.createFromAsset(getAssets(), "fonts/light.ttf");
+            textView.setTypeface(typeface);
         }
         //This is the case of a message written by chat_with user
         else{
@@ -330,6 +334,8 @@ public class Chat extends AppCompatActivity {
             textView.setBackground(getResources().getDrawable(R.drawable.layout_bg_him));
             textView.setTextColor(getResources().getColor(R.color.black));
             textView.setPadding(30,2,30,2);
+            Typeface typeface = Typeface.createFromAsset(getAssets(), "fonts/light.ttf");
+            textView.setTypeface(typeface);
         }
         textView.setLayoutParams(lp2);
         layout.addView(textView);

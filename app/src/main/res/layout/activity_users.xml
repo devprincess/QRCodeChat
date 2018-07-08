@@ -40,11 +40,13 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/no_users_found"
-        android:visibility="gone" />
+        android:visibility="gone"
+        android:fontFamily="@font/light"/>
 
     <ListView
         android:id="@+id/usersList"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="@color/background_color" />
+        android:background="@color/background_color"
+        android:fontFamily="@font/light"/>
 </LinearLayout>

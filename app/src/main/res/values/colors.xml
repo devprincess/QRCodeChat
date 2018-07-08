@@ -10,5 +10,5 @@
     <color name="colorAccent">#3a7c31</color>
     <color name="black">#000000</color>
     <color name="background_color">#ecfeff</color>
-    <color name="foreground_material_light">#444444</color>
+    <color name="foreground_material_light">#191919</color>
 </resources>
