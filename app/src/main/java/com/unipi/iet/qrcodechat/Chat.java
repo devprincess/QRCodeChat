@@ -320,14 +320,16 @@ public class Chat extends AppCompatActivity {
         //This is the case of a message written by current user
         if(type == 1) {
             lp2.gravity = Gravity.RIGHT;
-            textView.setBackgroundColor(getResources().getColor(R.color.chatMe));
-            textView.setTextColor(getResources().getColor(R.color.black));
+            textView.setBackground(getResources().getDrawable(R.drawable.layout_bg));
+            textView.setTextColor(getResources().getColor(R.color.background_color));
+            textView.setPadding(30,2,30,2);
         }
         //This is the case of a message written by chat_with user
         else{
             lp2.gravity = Gravity.LEFT;
-            textView.setBackgroundColor(getResources().getColor(R.color.chatFrom));
+            textView.setBackground(getResources().getDrawable(R.drawable.layout_bg_him));
             textView.setTextColor(getResources().getColor(R.color.black));
+            textView.setPadding(30,2,30,2);
         }
         textView.setLayoutParams(lp2);
         layout.addView(textView);

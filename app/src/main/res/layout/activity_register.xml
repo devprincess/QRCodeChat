@@ -72,9 +72,10 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_alignParentStart="true"
-        android:layout_marginBottom="233dp"
-        android:background="@color/chatFrom"
-        android:text="@string/register" />
+        android:layout_marginBottom="200dp"
+        android:background="@drawable/button"
+        android:text="@string/register"
+        android:textColor="@color/background_color" />
 
     <TextView
         android:id="@+id/login"
@@ -82,7 +83,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_below="@+id/registerButton"
-        android:layout_marginTop="-233dp"
+        android:layout_marginTop="-200dp"
         android:gravity="center"
         android:text="@string/click_here_to_login"
         android:textSize="20dp" />

@@ -23,7 +23,7 @@
             android:id="@+id/toolbar_login"
             android:layout_width="match_parent"
             android:layout_height="?attr/actionBarSize"
-            android:background="?attr/colorPrimary"
+            android:background="#78f667"
             app:popupTheme="@style/MyMaterialTheme">
 
             <ImageView
@@ -43,9 +43,10 @@
         android:layout_above="@+id/username"
         android:layout_alignParentStart="true"
         android:layout_marginBottom="-203dp"
+        android:fontFamily="sans-serif"
         android:gravity="center"
         android:text="@string/login"
-        android:textSize="30dp"/>
+        android:textSize="30dp" />
 
     <EditText
         android:id="@+id/username"
@@ -74,8 +75,10 @@
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_below="@+id/password"
-        android:background="@color/chatFrom"
-        android:text="@string/login" />
+        android:background="@drawable/button"
+        android:fontFamily="sans-serif"
+        android:text="@string/login"
+        android:textColor="@android:color/background_light" />
 
     <TextView
         android:id="@+id/register"
@@ -83,8 +86,9 @@
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_below="@+id/loginButton"
+        android:fontFamily="sans-serif"
         android:gravity="center"
         android:text="@string/click_here_to_register"
-        android:textSize="20dp" />
+        android:textAppearance="@style/TextAppearance.AppCompat" />
 
 </RelativeLayout>

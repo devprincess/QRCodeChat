@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#2eb82e</color>
-    <color name="colorPrimaryDark">#196619</color>
+    <color name="colorPrimary">#78f667</color>
+    <color name="colorPrimaryDark">#3a7c31</color>
     <color name="textColorPrimary">#FFFFFF</color>
-    <color name="chatFrom">#994d00</color>
-    <color name="chatMe">#ffff80</color>
+    <color name="chatFrom">#ffffff</color>
+    <color name="chatMe">#3a7c31</color>
     <color name="windowBackground">#FFFFFF</color>
-    <color name="navigationBarColor">#0f3e0f</color>
-    <color name="colorAccent">#0f3e0f</color>
+    <color name="navigationBarColor">#3a7c31</color>
+    <color name="colorAccent">#3a7c31</color>
     <color name="black">#000000</color>
-    <color name="background_color">#d6f5d6</color>
+    <color name="background_color">#ecfeff</color>
+    <color name="foreground_material_light">#444444</color>
 </resources>

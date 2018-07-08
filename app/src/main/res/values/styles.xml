@@ -2,6 +2,7 @@
 
     <style name="MyMaterialTheme" parent="MyMaterialTheme.Base">
 
+        <item name="android:colorForeground">@color/foreground_material_light</item>
     </style>
 
     <style name="MyMaterialTheme.Base" parent="Theme.AppCompat.Light.DarkActionBar">
