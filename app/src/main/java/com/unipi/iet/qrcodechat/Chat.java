@@ -324,9 +324,6 @@ public class Chat extends AppCompatActivity {
             textView.setBackground(getResources().getDrawable(R.drawable.layout_bg));
             textView.setTextColor(getResources().getColor(R.color.background_color));
             textView.setPadding(30,2,30,2);
-
-            Typeface typeface = Typeface.createFromAsset(getAssets(), "fonts/light.ttf");
-            textView.setTypeface(typeface);
         }
         //This is the case of a message written by chat_with user
         else{
@@ -334,9 +331,10 @@ public class Chat extends AppCompatActivity {
             textView.setBackground(getResources().getDrawable(R.drawable.layout_bg_him));
             textView.setTextColor(getResources().getColor(R.color.black));
             textView.setPadding(30,2,30,2);
-            Typeface typeface = Typeface.createFromAsset(getAssets(), "fonts/light.ttf");
-            textView.setTypeface(typeface);
         }
+
+        Typeface typeface = Typeface.createFromAsset(getAssets(), "fonts/light.ttf");
+        textView.setTypeface(typeface);
         textView.setLayoutParams(lp2);
         layout.addView(textView);
         scrollView.fullScroll(View.FOCUS_DOWN);

@@ -209,17 +209,7 @@ public class Login extends AppCompatActivity {
     //This function is called to grant a permission asked
     private void askForPermission(String permission, Integer requestCode) {
         if (ContextCompat.checkSelfPermission(Login.this, permission) != PackageManager.PERMISSION_GRANTED) {
-
-            // Should we show an explanation?
-            if (ActivityCompat.shouldShowRequestPermissionRationale(Login.this, permission)) {
-
-                //This is called if user has denied the permission before
-                //In this case I am just asking the permission again
-                ActivityCompat.requestPermissions(Login.this, new String[]{permission}, requestCode);
-
-            } else {
-                ActivityCompat.requestPermissions(Login.this, new String[]{permission}, requestCode);
-            }
+            ActivityCompat.requestPermissions(Login.this, new String[]{permission}, requestCode);
         }
     }
 }
